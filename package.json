@@ -1,0 +1,26 @@
+{
+  "name": "imooc-webapck-plugin",
+  "version": "1.0.0",
+  "description": "learning webpack plugin",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "debug": "node --inspect --inspect-brk node_modules/webpack/bin/webpack.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjshinning/imooc-webapck-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjshinning/imooc-webapck-plugin/issues"
+  },
+  "homepage": "https://github.com/cjshinning/imooc-webapck-plugin#readme"
+}
